@@ -1,27 +1,28 @@
 # depslib dependency file v1.0
-1514140574 source:c:\mingw\soal app tester\main.cpp
-	<iostream>
-
-1556896767 source:c:\mingw\codeblock\soal app tester\main.cpp
+1555682541 source:c:\mingw\soal app\main.cpp
 	<iostream>
 	<stdlib.h>
 	<windows.h>
 	<string>
 
-1556896995 source:c:\mingw\codeblock\soal app tester\src\soal.cpp
-	"soal.h"
-
-1556896630 c:\mingw\codeblock\soal app tester\include\soal.h
-
-1556896767 source:e:\documents\others\soal app version\soal app 2019-04-13\main.cpp
+1558845863 source:c:\mingw\codeblock\soal app\main.cpp
 	<iostream>
 	<stdlib.h>
 	<windows.h>
 	<string>
+	<mmsystem.h>
 
-1556896767 source:s:\source code\c++ programming\project\soal app version\soal app v-4.1.0\main.cpp
+1560175626 source:e:\documents\others\soal app version\soal app 2019-06-10\main.cpp
 	<iostream>
 	<stdlib.h>
 	<windows.h>
 	<string>
+	<mmsystem.h>
+
+1560175626 source:s:\source code\c++ programming\project\soal app version\soal app v-5.0.0\main.cpp
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
 
