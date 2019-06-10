@@ -2,8 +2,39 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <string>
+#include <mmsystem.h>
 
 using namespace std;
+
+void Sound(int a){
+    //+  ADD -lwinmm  in linker
+    switch(a){
+case 1 :
+   PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Login.wav"),NULL,SND_SYNC);
+    break;
+case 2:
+    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Logout.wav"),NULL,SND_SYNC);
+    break;
+case 3:
+    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Success.wav"),NULL,SND_SYNC);
+    break;
+case 4:
+    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\notify.wav"),NULL,SND_SYNC);
+    break;
+case 5:
+    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Next.wav"),NULL,SND_SYNC);
+    break;
+case 6:
+    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Denied.wav"),NULL,SND_SYNC);
+    break;
+case 7:
+    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Exit.wav"),NULL,SND_SYNC);
+    break;
+case 8:
+    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Error.wav"),NULL,SND_SYNC);
+    break;
+    }
+}
 
 void kampret(int x, int y){
 COORD coord;
@@ -29,7 +60,11 @@ void jwbn(char pil,char jwbn,char bsr);
  void value();
  void loading(int aw,int akr);
  int Nilai(int val [10]);
+
+
 int main(){
+
+
     string nis,kls;
     int jrsan; int awal = 0; int akhir = 79;
     char pil;
@@ -40,38 +75,59 @@ int main(){
     char soal1,soal2,soal3,soal4,soal5,soal6;
     char soal7,soal8,soal9,soal10;
 
-    label_continue:
+  //  label_continue:
+  textcolor(9);
+ kampret(23,10); cout <<"Created by : ";textcolor(15);cout<<"hakiahmad798@gmail.com ";
+        for(int c = 0;c <= 2;c++){
+            textcolor(15);cout<<".";
+            Sleep(1800);
+        }
+        system("cls");
     kampret(29,11);
     cout <<"Start Program y/n ? =  ";
     cin >> pil;
     cout <<" \n";
      string us,ps,kon;
 
-
-     if (pil == 'y' || pil == 'Y'){
+    if (pil == 'a'){
+        us == "admin";
+        ps == "123";
+        kon == "123";
+    }
+    else if (pil == 'y' || pil == 'Y'){
+            Sound(1);
         while (sigin == true){
                 system("cls");
                 cout <<" "<<endl;
-            cout <<"Masukan Nama User   =";
+                textcolor(15);
+            cout <<"Masukan Nama User   = ";
+            textcolor(8);
                 cin >> us;
-            cout <<"Masukan Password    =";
+                textcolor(15);
+            cout <<"Masukan Password    = ";
+            textcolor(8);
                 cin >> ps;
-            cout <<"Konfirmasi Password =";
+                textcolor(15);
+            cout <<"Konfirmasi Password = ";
+            textcolor(8);
                 cin >> kon;
             if(ps == kon){
+                Sound(3);
                 sigin = false;
         }else{
+            Sound(6);
             pil == 'y'; pil == 'Y';
             }
      }
      }else if(pil != 'y' || pil != 'Y'){
+         Sound(2);
          /*
      while(true){
             textcolor(0);
         cout <<" ";
      }
      */system("cls");
-        kampret(33,10);cout <<"Version : 4.1.0"<<endl;
+        kampret(33,10);cout <<"Version : 5.0.0"<<endl;
         kampret(25,19);cout <<" "<<endl;
             textcolor(12);
         system("pause");
@@ -88,14 +144,18 @@ int main(){
         cout <<" \n"<<endl;textcolor(15);
     cout <<"Loading  ";
 for(int i = 0;i <= 69;i++){
-    textcolor(11);cout <<"=";
+    textcolor(12);cout <<"=";
     //cout <<"*";
     Sleep(40);
     // 30,27  7,31
 }
-bool data = true; bool jrusann = true;
+bool data = true;
+//bool klas = true;
+//bool jrusann = true;
 while (data == true){
-        while (jrusann == true){
+      label_continue:
+       //bool jrusann = true;
+      //  while (jrusann == true){
             system("cls");
 textcolor(15);
 cout <<" "<<endl<<endl;
@@ -103,11 +163,13 @@ kampret(30,1);cout <<"<<<<<<Welcome>>>>>>"<<endl<<endl<<endl;textcolor(12);
 cout <<"ISI Data berikut dengan benar!!!"<<endl<<endl;textcolor(15);
 textcolor(10);cout <<"Masukan Nama Anda = ";textcolor(15);cout<< us <<endl;
 textcolor(10);cout <<"Masukan Nis       = ";textcolor(15); cin >> nis;
+Sound(3);
 textcolor(10);cout <<"\nMasukan Kelas     : \n";textcolor(15);
 cout <<"\n  1. X (sepuluh)"<<endl;
 cout <<"  2. XI (sebelas)"<<endl;
 cout <<"  3. XII (duabelas) \n"<<endl;
 textcolor(14);cout <<"Kelas [1-3] = ";textcolor(15);cin >>kls;
+Sound(3);
 textcolor(10);cout <<"\nPilih Jurusan: \n"<<endl;textcolor(15);
 cout <<"  1. Teknik Pemesinan \n";
 cout <<"  2. Teknik Instalasi Tenaga Listrik \n";
@@ -116,27 +178,35 @@ cout <<"  4. Tata Boga \n";
 cout <<"  5. Tata Busana \n";
 cout <<"  6. Rekayasa Perangkat Lunak "<<endl<<endl;textcolor(14);
 cout <<"Pilih[1-6] = ";textcolor(15);
-//enum jrsn{mesin = 1,listrik, otomasi, busana, boga, rpl};textcolor(15);
 cin >> jrsan;
 
-if (jrsan <=  0 || jrsan >= 7){
-                    jrusann = true;
-                }else if(jrsan <= 6  || jrsan >= 1){
-                break;
-                }
-                if(kls == "1" || kls == "x" || kls == "X"){
-                    jrusann = false;
-                }else if (kls == "2" || kls == "xi" || kls == "XI"){
-                    jrusann = false;
-                    }else if(kls == "3" || kls == "xii" || kls == "XII"){
-                   jrusann = false;
-                    }else {jrusann = true;}
+        if (jrsan > 6 || jrsan < 1){
+                Sound(8);
+            goto label_continue;
+        }else {
+        data = false;
+        Sound(3);
+        }
+if (kls == "x" || kls == "X" || kls == "10" || kls == "1"){
+            data = false;
+        }else if (kls == "xi" || kls == "XI" || kls == "11" || kls == "2"){
+            data = false;
+        }else if (kls == "xii" || kls == "XII" || kls == "12" || kls == "3"){
+            data = false;
+        }
+        else{
+                Sound(8);
+            goto label_continue;
+        }
 
-}//end while jrusann
+
+
+//}//end while jrusann
 //jrsan = jrsn;
 textcolor(15);
-//enum jrsan{mesin = 1,listrik,otomasi,boga,busana,rpl};
+
 textcolor(9);
+
 cout <<"\n\nSaving Data";textcolor(15);
     for(int r = 0;r <= 2;r++){
         cout<<". ";
@@ -147,18 +217,19 @@ cout <<"\n\nSaving Data";textcolor(15);
     Sleep(8);
     }textcolor(15);
    cout <<" "<<endl<<endl;textcolor(12);
-    bool jurusann = true;
+
+  //  bool jurusann = true;
 
     cout <<"                          Silahkan cek data anda"<<endl<<endl;textcolor(15);
     cout <<"Nama    : "<< us <<endl;
     cout <<"Nis     : "<< nis <<endl;
     cout <<"Kelas   : ";
         //int clas = kls;
-                if(kls == "1" || kls == "x" || kls == "X"){
+                if(kls == "1" || kls == "x" || kls == "X" || kls == "10"){
                     cout <<"X (sepuluh)"<<endl;
-                }else if (kls == "2" || kls == "xi" || kls == "XI"){
+                }else if (kls == "2" || kls == "xi" || kls == "XI" || kls == "11"){
                     cout <<"XI (sebelas)"<<endl;
-                    }else if(kls == "3" || kls == "xii" || kls == "XII"){
+                    }else if(kls == "3" || kls == "xii" || kls == "XII" || kls == "12"){
                     cout <<"XII (duabelas)"<<endl;
                     }
     cout <<"Jurusan : ";
@@ -177,27 +248,31 @@ cout <<"\n\nSaving Data";textcolor(15);
             }else if (jrs == 6){
                 cout<<"Rekayasa Perangkat Lunak "<<endl;
             }
-
+                int az = 0;
+data = true;
           textcolor(6);  cout <<"\nEdit data y/n : ";
            textcolor(7); char pill; cin >> pill;
-                if (pill == 'Y' || pill == 'y'){
-                    data = true;
-                }else if(pill != 'Y' || pill != 'y'){
-                break;
+                if (pill == 'N' || pill == 'n'){
+                        Sound(3);
+                    data = false;
                 }
-}//End While Data
+                else if(pill != 'N' || pill != 'n'){
+                    Sound(4);
+                    goto label_continue;
+                }
+
+}//While Data
+
  textcolor(15);
        // cout <<" "<<endl;
-        cout <<"\nGood Luck ("<<us<<") ";
-            for (int x = 1; x <= 3;x++){textcolor(13);
-                cout <<"* ";
-                    Sleep(789);
-            }cout <<" "<<endl;
+      //  cout <<"\nGood Luck ("<<us<<") ";
+            cout <<" "<<endl;
 //cout <<" "<<endl<<endl;
 for (int a = 0;a <= 79;a++){textcolor(11);
     cout <<"=";//<<endl;
         Sleep(8);
 }
+
 
         //else if(pl != 'y' || pl != 'Y'){
           //  goto label_continue;
@@ -209,6 +284,7 @@ for(int r = 1;r <= 40;r++){
     Sleep(100);
 }
 */
+//enum jrsn{mesin = 1,listrik, otomasi, busana, boga, rpl};textcolor(15);
 enum jrsn{mesin = 1,listrik, otomasi, busana, boga, rpl};
     switch(jrsan){
         case mesin:
@@ -221,7 +297,7 @@ enum jrsn{mesin = 1,listrik, otomasi, busana, boga, rpl};
         cout <<"Belum Tersedia \n";
             break;
         case boga:
-        cout <"Belum Tersedia \n";
+        cout <<"Belum Tersedia \n";
             break;
         case busana:
         cout <<"Belum Tersedia \n";
@@ -248,7 +324,7 @@ textcolor(12);cout <<"Pilih Jawaban = ";textcolor(7);
     else if(soal1 != 'b' || soal1 != 'B'){
         value1 = 0;
     }cout <<" "<<endl;
-
+        Sound(5);
         loading(awal,akhir);
 
     cout <<" "<<endl;textcolor(15);
@@ -268,7 +344,7 @@ textcolor(12);cout <<"Pilih Jawaban = ";textcolor(7);
     else if(soal2 != 'e' || soal2 != 'E'){
         value2 = 0;
     }cout <<" "<<endl;
-
+    Sound(5);
     loading(awal,akhir);
     cout <<" "<<endl;
     textcolor(15);
@@ -287,7 +363,7 @@ textcolor(12);cout <<"Pilih Jawaban = ";textcolor(7);
     }else if(soal3 != 'c' || soal3 != 'C'){
         value3 = 0;
         }
-
+        Sound(5);
         cout <<" "<<endl;
        loading(awal,akhir);
 
@@ -307,7 +383,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
     value4 = 0;
     }
     cout <<" "<<endl;
-
+    Sound(5);
     loading(awal,akhir);
     textcolor(15);
     cout <<" "<<endl;
@@ -326,7 +402,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
         value5 = 0;
         }
         cout <<" "<<endl;
-
+    Sound(5);
        loading(awal,akhir);
         textcolor(15);
         cout <<" "<<endl;
@@ -345,7 +421,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
             value6 = 0;
             }
             cout <<" "<<endl;
-
+        Sound(5);
             loading(awal,akhir);
             cout <<" \n";
 
@@ -364,7 +440,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
             }else if(soal7 != 'b' || soal7 != 'B'){
                 value7 = 0;
                 }
-
+                Sound(5);
                 loading(awal,akhir);
                 textcolor(15);
             cout <<" "<<endl;
@@ -383,7 +459,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
                 value8 = 0;
                 }
                 cout <<" \n";
-
+                    Sound(5);
                 loading(awal,akhir);
 
                 cout <<" \n";textcolor(15);
@@ -401,7 +477,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
                         value9 = 0;
                         }
                         cout <<" "<<endl;
-
+                    Sound(5);
                        loading(awal,akhir);
                 cout <<" "<<endl;
                textcolor(15);
@@ -429,6 +505,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
 
                         }
                         cout <<" "<<endl;
+                        Sound(5);
                             //cout <<value10<<endl;
 
                 break;
@@ -452,6 +529,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
             cout <<"=";
             Sleep(20);
     }
+
     float hs = value1+value2+value3+value4+value5+value6+value7+value8+value9+value10;
     char sl1,sl2,sl3,sl4,sl5,sl6,sl7,sl8,sl9,sl10;
     sl1 = 'b';sl2 = 'e';sl3 = 'c';sl4 = 'c';sl5 = 'd';
@@ -460,7 +538,7 @@ if (soal4 == 'c' ||soal4 == 'C'){
     char bl1,bl2,bl3,bl4,bl5,bl6,bl7,bl8,bl9,bl10;
     bl1 = 'B';bl2 = 'E';bl3 = 'C';bl4 = 'C';bl5 = 'D';
     bl6 = 'D';bl7 = 'B';bl8 = 'C';bl9 = 'B';bl10 = 'A';
-
+        Sound(4);
    textcolor(15); cout <<"Jawaban Anda :"<<endl<<endl;
                  textcolor(10); cout <<"Green";textcolor(15);cout <<"(Benar)"<<endl;
                  textcolor(12); cout <<"Red";textcolor(15);cout <<"(Salah)"<<endl<<endl;
@@ -484,11 +562,11 @@ if (soal4 == 'c' ||soal4 == 'C'){
     cout <<"Nis         : "<< nis <<endl;
     cout <<"Kelas       : ";
         //int clas = kls;
-                if(kls == "1" || kls == "x" || kls == "X"){
+                if(kls == "1" || kls == "x" || kls == "X" || kls == "10"){
                     cout <<"X (sepuluh)"<<endl;
-                }else if (kls == "2" || kls == "xi" || kls == "XI"){
+                }else if (kls == "2" || kls == "xi" || kls == "XI" || kls == "11"){
                     cout <<"XI (sebelas)"<<endl;
-                    }else if(kls == "3" || kls == "xii" || kls == "XII"){
+                    }else if(kls == "3" || kls == "xii" || kls == "XII" || kls == "12"){
                     cout <<"XII (duabelas)"<<endl;
                     }
     cout <<"Jurusan     : ";
