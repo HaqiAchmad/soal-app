@@ -3,6 +3,8 @@
 #include <windows.h>
 #include <string>
 #include <mmsystem.h>
+#include <bits/stdc++.h>
+#include <conio.h>
 
 using namespace std;
 
@@ -55,17 +57,83 @@ void textcolor(int ForgC) {
      return;
  }
 
- void jwb(char pil,char jwb);
+ void UserLogin (string Userid){
+
+    char Checking[10] = {'@','g','m','a','i','l','.','c','o','m'};
+    char CopyOf[10];
+    bool LoginUS = true;
+    string errMessage = " ";
+
+while(LoginUS == true){
+        system("cls");
+   textcolor(12); cout << errMessage <<endl;textcolor(15);
+    cout <<"Masukan gmail anda  : ";textcolor(8);
+    cin >> Userid;
+
+    int lengthStr = Userid.length();
+    char chAry [lengthStr];
+    strcpy(chAry, Userid.c_str());
+
+        char Search = '@'; char buffer; int lengthScr = 0; int Else = 0;
+            for (int j = 0; j < Userid.length(); j++){
+                buffer = chAry[j];
+                    if (buffer == Search){
+                        lengthScr = j;
+                    }else {
+                    Else++;
+                    }
+            }
+
+           // cout <<"lengthSrc = " << lengthScr <<"\nnot : " << Else <<endl;
+
+            for (int c = 0; c < 10; c++){
+                CopyOf[c] = chAry[lengthScr];
+                lengthScr++;
+            }
+
+
+        int a,b,Fail; Fail = 0;
+        for (int r = 0; r < 10; r++){
+            a = Checking[r];
+            b = CopyOf[r];
+                if (a != b){
+                    Fail = Fail+1;
+                }
+        }
+
+        if (Fail > 0){
+            LoginUS = true;
+            errMessage = " //Masukan gmail anda contoh : hakiahmad756@gmail.com ";
+        }
+        else {
+            LoginUS = false;
+        }
+
+    }
+ }
+  void randC (string randStr,int horizl, int vertkl,int lama,int akhir){
+        for (int i = 0; i <= akhir; i++){
+  int RandClr = 1 + (rand() & 14);
+  int VarClr = 1 + (rand() & 14);
+     textcolor(RandClr+VarClr);
+      kampret(horizl,vertkl);  cout << randStr <<endl;
+        Sleep(lama);
+    textcolor(15);
+  }
+}
+
+
+void jwb(char pil,char jwb);
 void jwbn(char pil,char jwbn,char bsr);
- void value();
- void loading(int aw,int akr);
- int Nilai(int val [10]);
+void value();
+void loading(int aw,int akr);
+int Nilai(int val [10]);
 
 
 int main(){
 
 
-    string nis,kls;
+    string nis,kls,usLogin,versi; versi = "Version : 5.1.1";
     int jrsan; int awal = 0; int akhir = 79;
     char pil;
     bool sigin = true;
@@ -77,13 +145,9 @@ int main(){
 
   //  label_continue:
   textcolor(9);
- kampret(23,10); cout <<"Created by : ";textcolor(15);cout<<"hakiahmad798@gmail.com ";
-        for(int c = 0;c <= 2;c++){
-            textcolor(15);cout<<".";
-            Sleep(1800);
-        }
+ kampret(23,10); cout <<"Created by : ";textcolor(15); randC("hakiahmad756@gmail.com",36,10,250,25);
         system("cls");
-    kampret(29,11);
+    kampret(29,11);textcolor(12);
     cout <<"Start Program y/n ? =  ";
     cin >> pil;
     cout <<" \n";
@@ -100,15 +164,13 @@ int main(){
                 system("cls");
                 cout <<" "<<endl;
                 textcolor(15);
-            cout <<"Masukan Nama User   = ";
-            textcolor(8);
-                cin >> us;
+            UserLogin(usLogin);
                 textcolor(15);
-            cout <<"Masukan Password    = ";
+            cout <<"Masukan Password    : ";
             textcolor(8);
                 cin >> ps;
                 textcolor(15);
-            cout <<"Konfirmasi Password = ";
+            cout <<"Konfirmasi Password : ";
             textcolor(8);
                 cin >> kon;
             if(ps == kon){
@@ -126,11 +188,12 @@ int main(){
             textcolor(0);
         cout <<" ";
      }
-     */system("cls");
-        kampret(33,10);cout <<"Version : 5.0.0"<<endl;
-        kampret(25,19);cout <<" "<<endl;
+     */system("cls");textcolor(15);
+       randC("Version : 5.1.1",33,10,300,40);
+        kampret(25,19);cout <<endl;
             textcolor(12);
         system("pause");
+        textcolor(0);
      return 0;
      }
 
@@ -161,7 +224,7 @@ textcolor(15);
 cout <<" "<<endl<<endl;
 kampret(30,1);cout <<"<<<<<<Welcome>>>>>>"<<endl<<endl<<endl;textcolor(12);
 cout <<"ISI Data berikut dengan benar!!!"<<endl<<endl;textcolor(15);
-textcolor(10);cout <<"Masukan Nama Anda = ";textcolor(15);cout<< us <<endl;
+textcolor(10);cout <<"Masukan Nama Anda = ";textcolor(15);cin >> us ;Sound(3);
 textcolor(10);cout <<"Masukan Nis       = ";textcolor(15); cin >> nis;
 Sound(3);
 textcolor(10);cout <<"\nMasukan Kelas     : \n";textcolor(15);
@@ -274,17 +337,6 @@ for (int a = 0;a <= 79;a++){textcolor(11);
 }
 
 
-        //else if(pl != 'y' || pl != 'Y'){
-          //  goto label_continue;
-       // }
-/*cout <<" \n"<<endl;
-for(int r = 1;r <= 40;r++){
-    textcolor(10);
-    cout<<"=+";
-    Sleep(100);
-}
-*/
-//enum jrsn{mesin = 1,listrik, otomasi, busana, boga, rpl};textcolor(15);
 enum jrsn{mesin = 1,listrik, otomasi, busana, boga, rpl};
     switch(jrsan){
         case mesin:
@@ -606,45 +658,6 @@ if (soal4 == 'c' ||soal4 == 'C'){
 
 
                 system("pause");
-            /*
-            A = 90 - 100
-            B = 70 - 80
-            C = 30 - 60
-            D = 0  - 20
-
-            */
-
-    /* char pl;
-
-textcolor(8);
-cout <<"Pilih y untuk lanjut dan n untuk keluar!!! \n"<<endl;
-cout <<"Start Ujian =";textcolor(15);
-    cin >> pl;
-if(pl == 'y' || pl == 'Y'){
-        cout <<endl;
-   textcolor(12); cout<<"Mempersiapkan ujian ";
-        for(int s = 1;s <= 3;s++){
-            textcolor(7);
-                cout<<".";
-                Sleep(2100);
-        }
-        textcolor(15);
-        cout <<" "<<endl;
-        cout <<"\n Good Luck . . ."<<endl;
-        }else if(pl != 'y' || pl != 'Y'){
-            goto label_continue;
-        }
-cout <<" \n"<<endl;
-for(int r = 1;r <= 40;r++){
-    textcolor(10);
-    cout<<"=+";
-    Sleep(100);
-}
-
-
-
-*/
-
 
 cin.get();
 return 0;
