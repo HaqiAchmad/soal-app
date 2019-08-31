@@ -1,0 +1,383 @@
+#include <iostream>
+#include <stdlib.h>
+#include <windows.h>
+#include <string>
+#include <mmsystem.h>
+#include <bits/stdc++.h>
+#include <conio.h>
+#include <fstream>
+#include <chrono>
+
+namespace files{
+    using namespace std;
+    using namespace decor;
+//    using namespace funct;
+    using namespace getValues;
+//    using namespace getValues;
+
+void addAccount(){
+
+    char Checking[15] = {'@','g','m','a','i','l','.','c','o','m'};
+    char CheckYmai[15] = {'@','y','a','h','o','o','.','c','o','m'};
+    char CopyOf[10];
+    bool LoginUS = true;
+    string Nama ="", Gmail, Password, errMessage = " ";
+
+    fstream dataAcount;
+    dataAcount.open("C:\\MinGW\\codeblock\\Soal APP\\Database\\user\\UserAccount.txt",ios::app | ios::in);
+    /////////////////////////////////////////////////////////////////////////////////////
+/// User memasukan nama
+    string errName = "";
+    change:
+        system("cls"); textcolor(15);
+
+    textcolor(12); cout << errName <<endl; textcolor(15);
+    cout <<"Masukan nama anda  : ";textcolor(8);
+        getline(cin,Nama);
+        getName(Nama);
+        // Mengecek nama lebih dari 2 karakter
+            if (Nama.length() <= 2){
+                errName = "Nama anda terlalu pendek!!";
+                cin.ignore(numeric_limits<streamsize>::max(),'\n');
+                goto change;
+            }
+
+
+        textcolor(12); cout <<endl <<endl;
+    cout <<Nama<<" akan selalu di gunakan dalam program!!!"<<endl; textcolor(15);
+    cout <<"ingin mengantinya[y/n] : ";
+    char pil; textcolor(8);
+        cin >> pil;
+        if (pil == 'Y' || pil == 'y'){
+            goto change;
+        }else if(pil == 'N' || pil == 'n'){
+
+        }else {
+            goto change;
+        }
+
+while(LoginUS == true){
+
+   bool isLogin = false;
+   terdaftar: system("cls");
+        if (isLogin == true){
+          textcolor(14); cout <<"\""<< Gmail <<"\""; textcolor(15); cout << errMessage <<endl;
+        }else {
+          textcolor(14); cout << errMessage <<endl;textcolor(15);
+        }
+
+    cout <<"Masukan Gmail anda  : ";textcolor(8);
+    cin >> Gmail;
+
+    string Read;
+    while(!dataAcount.eof()){
+        getline(dataAcount, Read);
+        cout << Read <<endl;
+            if (Read == Gmail){
+                errMessage = " sudah terdaftar";
+                isLogin = true;
+                goto terdaftar;
+                break;
+            }
+    }
+
+    int lengthStr = Gmail.length();
+    char chAry [lengthStr];
+    strcpy(chAry, Gmail.c_str());
+
+        char Search = '@'; char buffer; int lengthScr = 0; int Else = 0;
+            for (int j = 0; j < Gmail.length(); j++){
+                buffer = chAry[j];
+                    if (buffer == Search){
+                        lengthScr = j;
+                    }else {
+                    Else++;
+                    }
+            }
+
+            for (int c = 0; c < 10; c++){
+                CopyOf[c] = chAry[lengthScr];
+                lengthScr++;
+            }
+
+
+        int GM,tru,Fail = 0;
+        for (int r = 0; r < 10; r++){
+            tru = Checking[r];
+            GM = CopyOf[r];
+                if (tru!= GM){
+                    Fail = Fail+1;
+                }
+        }
+        cout << Checking[14];
+       // Gmail = Userid; // Variable Gmail akan di outputkan keluar method
+        if (Fail > 0){
+            LoginUS = true;
+            errMessage = " //Masukan gmail anda contoh : hakiahmad756@gmail.com ";
+        }
+        else {
+            LoginUS = false;
+        }
+
+    }
+
+
+    string Pass,KonPass;
+    bool Password = true;
+    string pesan = "  <Success>";
+
+    while(Password == true){
+            if (Gmail == "admin"){
+                break;
+            }
+
+       ThrowPassword: system("cls");
+       textcolor(15); cout <<"\nMasukan Gmail anda  : "; textcolor(8); cout << Gmail; textcolor(12); cout << pesan <<endl;
+
+       textcolor(15); cout <<"Masukan Password    : "; textcolor(8);
+          //  cin.ignore(numeric_limits<streamsize>::max(),'\n');
+            getline(cin,Pass);
+
+         if (Pass.length() <= 5){
+            pesan = "  //Password harus >= 6 character";
+            system("cls");
+            goto ThrowPassword;
+         }else
+         {
+            textcolor(15); cout <<"Konfirmasi Password : "; textcolor(8);
+           // cin.ignore(numeric_limits<streamsize>::max(),'\n');
+            getline(cin,KonPass);
+
+            if (Pass == KonPass){
+                break;
+        }else if (Pass != KonPass){
+            pesan = "  //Password Tidak Sama!!";
+            system("cls");
+            goto ThrowPassword;
+        }
+    }
+         }
+
+       // getGmail(Userid); getPassword(Pass);
+        dataAcount << Nama.append("\n");
+        dataAcount << Userid.append("\n");
+        dataAcount << Pass.append("\n");
+        dataAcount.close();
+ }
+
+void loginUserAccount(){
+    string acco, pass, fnName, fnAcc, fnPass, buffer, errMsg;
+    fstream files; files.open("C:\\MinGW\\codeblock\\Soal APP\\Database\\user\\UserAccount.txt");
+    bool isFind = false, isBlock;
+    int chance = 5;
+
+   notFound:
+   system("cls"); textcolor(15);
+   textcolor(15); cout << errMsg <<endl;
+    cout <<"\nMasukan Gmail Anda : "; textcolor(8);
+      cin >> acco;
+
+   while (!files.eof()){
+     getline(files, buffer);
+        fnName = buffer;
+    getline(files, buffer);
+        fnAcc = buffer;
+    getline(files, buffer);
+        fnPass = buffer;
+    getName(fnName);
+
+        if (fnAcc == acco){
+            isFind = true;
+            break;
+        }
+   }
+
+    getGmail(acco);
+//    getGmailacco);
+    if (isFind == true){
+
+        system("cls");
+        textcolor(12); cout << fnAcc <<" ditemukan!!!"<<endl;
+        cin.ignore(numeric_limits<streamsize>::max(),'\n');
+
+        while(chance >= 1){
+        system("cls");
+        textcolor(15); cout <<isFind<<"Masukan Gmail Anda : "; textcolor(8); cout << fnAcc; textcolor(11); cout <<" "<< chance <<" kesempatan lagi!"<<endl;
+        textcolor(15); cout <<"Masukan Password   : ";
+            getline(cin, pass);
+
+            if (pass == fnPass){
+                isBlock = false;
+                break;
+            }else {
+                isBlock = true;
+            }
+            chance-=1;
+        }
+    }else if (isFind == false){
+        errMsg = acco+" belum terdaftar\n Silahkan cek akun anda kembali \n Jika anda belum mempunyai akun silahkan ketik out pada console";
+        //goto notFound;
+    }
+
+    if (isBlock == false){
+        cout <<"Login Success"<<endl;
+    }else if (isBlock != false){
+        cout <<fnAcc <<" terblokir"<<endl;
+
+    }
+
+
+}
+
+void getLoginType(){
+
+    int choose;
+    string gmail, password, name;
+   //TypingTxt("Welcome", 12, 300, 35, 3);
+   textcolor(11);
+  notFound:
+  kampret(0, 9); cout <<"\n    >> 1. Daftar "<<endl;
+  kampret(0, 11); cout <<"    >> 2. Masuk "<<endl;
+  cout << "Input code [1/2] ";
+        cin>> choose;
+
+        if (choose == 1){
+            addAccount(gmail,password,name);
+
+        }else if (choose == 2){
+            loginUserAccount();
+        }else {
+            system("cls");
+            goto notFound;
+        }
+
+}
+
+
+ void appClose(){
+
+     Sound(2); system("cls");textcolor(15);
+         randC("5.2.4",33,10,300,21);
+         kampret(25,19);cout <<endl;
+            textcolor(12);
+        system("pause");
+        textcolor(0);
+
+ }
+
+void readDataUser(){
+    ifstream dataUser;
+    dataUser.open("C:\\MinGW\\codeblock\\Soal APP\\Database\\user\\DataStatusUser.txt",ios::in);
+    string data="",buffer;
+
+    system("cls"); textcolor(8);
+    while(!dataUser.eof()){
+            getline(dataUser,data);
+                cout << data <<endl;
+    }
+    system("pause");
+      textcolor(9);
+}
+
+void readUserAccount(){
+
+   ifstream dataUser;
+    dataUser.open("C:\\MinGW\\codeblock\\Soal APP\\Database\\user\\UserAccount.txt",ios::in);
+    string buffer;
+
+    system("cls"); textcolor(8);
+    while(!dataUser.eof()){
+            getline(dataUser, buffer);
+                cout <<"Username : "<< buffer <<endl;
+            getline(dataUser, buffer);
+                cout <<"Gmail    : "<< buffer <<endl;
+            getline(dataUser, buffer);
+                cout <<"Password : "<< buffer <<endl<<endl;
+    }
+    system("pause");
+      textcolor(9);
+}
+
+void getOption(){
+     string choose; loop:
+     kampret(29,11);textcolor(10);
+     cout <<"Start Program y/n ? =  "; textcolor(9);
+     cin >> choose;
+
+     // ok == sudah di buat
+     system("cls");
+     if (choose == "y" || choose == "Y"){
+        getLoginType();
+
+     }else if (choose == "n" || choose == "N" || choose == "out"){
+          appClose(); // ok
+
+     }else if (choose == "read.data" || choose == "##"){
+        readDataUser(); // ok
+        system("cls");
+        goto loop;
+
+     }else if (choose == "read.acc" || choose == "#!"){
+        readUserAccount(); //ok
+        system("cls");
+        goto loop;
+     }
+
+}
+
+ void writeDataUser(){
+
+    ofstream DataUser; DataUser.open("C:\\MinGW\\codeblock\\Soal APP\\Database\\user\\DataStatusUser.txt",ios::app);
+
+    time_t t = time(NULL);
+    tm* timePtr = localtime(&t);
+
+            system("cls");
+    int Hrs = timePtr->tm_hour, Min = timePtr->tm_min;
+    int day = timePtr->tm_wday, nowDay = timePtr->tm_mday;
+    int month = timePtr->tm_mon+1, year = timePtr->tm_year+1900;
+
+    string nmDay = "";
+   switch(day){
+        case 1:
+            nmDay = "Sen, ";
+            break;
+        case 2:
+            nmDay = "Sel, ";
+            break;
+        case 3:
+            nmDay = "Rab, ";
+            break;
+        case 4:
+            nmDay = "Kam, ";
+            break;
+        case 5:
+            nmDay = "Jum, ";
+            break;
+        case 6:
+            nmDay = "Sab, ";
+            break;
+        case 0:
+            nmDay = "Min, ";
+            break;
+       }
+
+    string line = "\n";
+    /// convert int to string
+    stringstream hrs, mnt, nwdy, mon, yrs;
+    hrs << Hrs; mnt << Min; nwdy << nowDay; mon << month; yrs << year;
+
+    string jam = hrs.str(), menit = mnt.str(), harini = nwdy.str(), bulan = mon.str(), tahun = yrs.str();
+
+    DataUser <<"Gmail    : "; DataUser << setGmail().append("\n");
+    DataUser <<"Username : "; DataUser << setName().append("\n");
+    DataUser <<"Nis      : "; DataUser << setNis().append("\n");
+    DataUser <<"Kelas    : "; DataUser << setKelas().append("\n");
+    DataUser <<"Jurusan  : "; DataUser << setJurusan().append("\n");
+    DataUser <<"Nilai    : "; DataUser << setVal()*10;
+    DataUser <<"\nStatus   : "; DataUser << setStatus().append("\n");
+    DataUser <<"Login Time : "; DataUser << jam.append(":"+menit+" ");
+    DataUser << nmDay.append(harini+":"+bulan+":"+tahun+"\n\n");
+
+    }
+}
