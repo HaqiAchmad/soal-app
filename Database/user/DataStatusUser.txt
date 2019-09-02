@@ -1,0 +1,241 @@
+Gmail    : Baihaqi.imersa@gmail.com
+Username : Baihaqi
+Nis      : 6165
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+
+Gmail    : hakiahmad90@gmail.com
+Username : b
+Nis      : 1222
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 50
+Status   : TIDAK LULUS
+
+Gmail    : c++projecct@gmail.com
+Username : Spongebob
+Nis      : cy34ja
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 13:0 Sab, 17:8:2019
+
+Gmail    : agustus@gmail.com
+Username : FunFunFun
+Nis      : X
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 60
+Status   : TIDAK LULUS
+Login Time : 13:4 Sab, 17:8:2019
+
+Gmail    : c++project@gmail.com
+Username : hqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 60
+Status   : TIDAK LULUS
+Login Time : 19:47 Sab, 17:8:2019
+
+Gmail    : 
+Username : baihaqi
+Nis      : v81f4
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 10:2 Min, 25:8:2019
+
+Gmail    : 
+Username : baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 11:9 Min, 25:8:2019
+
+Gmail    : 
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 11:37 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 11:49 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 13:24 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : admin
+Nis      : null
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 80
+Status   : LULUS
+Login Time : 13:28 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : 
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 14:1 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : 
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 14:16 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : 
+Kelas    : 
+Jurusan  : 
+Nilai    : 0
+Status   : 
+Login Time : 14:27 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 0
+Status   : 
+Login Time : 14:41 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 0
+Status   : 
+Login Time : 14:44 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : 6165
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 70
+Status   : LULUS
+Login Time : 14:52 Min, 25:8:2019
+
+Gmail    : tester202@gmail.com
+Username : baihaqi
+Nis      : 5151
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 15:22 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : e343
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 22:27 Min, 25:8:2019
+
+Gmail    : c++project@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 20:55 Kam, 29:8:2019
+
+Gmail    : 
+Username : baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 90
+Status   : LULUS
+Login Time : 13:40 Sab, 31:8:2019
+
+Gmail    : 
+Username : Windows
+Nis      : 7843
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 70
+Status   : LULUS
+Login Time : 13:52 Sab, 31:8:2019
+
+Gmail    : 
+Username : windows
+Nis      : 7842
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 50
+Status   : TIDAK LULUS
+Login Time : 13:58 Sab, 31:8:2019
+
+Gmail    : 
+Username : winn
+Nis      : 6546
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 80
+Status   : LULUS
+Login Time : 14:1 Sab, 31:8:2019
+
+Gmail    : 
+Username : friennd
+Nis      : 7482
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 40
+Status   : TIDAK LULUS
+Login Time : 14:14 Sab, 31:8:2019
+
+Gmail    : 
+Username : baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 20:53 Sel, 3:9:2019
+
+Gmail    : superai@gmail.com
+Username : baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 20:57 Sel, 3:9:2019
+
