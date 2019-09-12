@@ -1,0 +1,3 @@
+"C:\Users\Infinite World\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Soal_App__CLion_.dir/objects.a
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\Soal_App__CLion_.dir/objects.a @CMakeFiles\Soal_App__CLion_.dir\objects1.rsp
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Soal_App__CLion_.dir/objects.a -Wl,--no-whole-archive  -o Soal_App__CLion_.exe -Wl,--out-implib,libSoal_App__CLion_.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Soal_App__CLion_.dir\linklibs.rsp

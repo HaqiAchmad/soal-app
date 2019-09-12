@@ -1,0 +1,84 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/MinGW/Soal App (CLion)/main.cpp
+iostream
+-
+namespace//getValues.h
+C:/MinGW/Soal App (CLion)/namespace//getValues.h
+namespace//decor.h
+C:/MinGW/Soal App (CLion)/namespace//decor.h
+namespace//funct.h
+C:/MinGW/Soal App (CLion)/namespace//funct.h
+namespace//files.h
+C:/MinGW/Soal App (CLion)/namespace//files.h
+
+C:/MinGW/Soal App (CLion)/namespace//decor.h
+iostream
+-
+stdlib.h
+-
+windows.h
+-
+string
+-
+mmsystem.h
+-
+bits/stdc++.h
+-
+conio.h
+-
+fstream
+-
+chrono
+-
+
+C:/MinGW/Soal App (CLion)/namespace//files.h
+iostream
+-
+stdlib.h
+-
+windows.h
+-
+string
+-
+mmsystem.h
+-
+bits/stdc++.h
+-
+conio.h
+-
+fstream
+-
+chrono
+-
+
+C:/MinGW/Soal App (CLion)/namespace//funct.h
+iostream
+-
+stdlib.h
+-
+windows.h
+-
+string
+-
+mmsystem.h
+-
+bits/stdc++.h
+-
+conio.h
+-
+fstream
+-
+chrono
+-
+
+C:/MinGW/Soal App (CLion)/namespace//getValues.h
+iostream
+-
+
