@@ -12,7 +12,7 @@
 namespace decor{
 
     using namespace std;
-    void kampret(int x, int y){
+    void gotoxy(int x, int y){
 COORD coord;
 coord.X = x;
 coord.Y = y;
@@ -31,31 +31,31 @@ void textcolor(int ForgC) {
      return;
  }
 void Sound(int a){
-    //+  ADD -lwinmm  in linker
+    ///   ADD -lwinmm  in linker
     switch(a){
 case 1 :
-   PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Login.wav"),NULL,SND_SYNC);
+   PlaySound(TEXT("Database\\Sound\\Login.wav"),NULL,SND_SYNC);
     break;
 case 2:
-    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Logout.wav"),NULL,SND_SYNC);
+    PlaySound(TEXT("Database\\Sound\\Logout.wav"),NULL,SND_SYNC);
     break;
 case 3:
-    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Success.wav"),NULL,SND_SYNC);
+    PlaySound(TEXT("Database\\Sound\\Success.wav"),NULL,SND_SYNC);
     break;
 case 4:
-    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\notify.wav"),NULL,SND_SYNC);
+    PlaySound(TEXT("Database\\Sound\\notify.wav"),NULL,SND_SYNC);
     break;
 case 5:
-    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Next.wav"),NULL,SND_SYNC);
+    PlaySound(TEXT("Database\\Sound\\Next.wav"),NULL,SND_SYNC);
     break;
 case 6:
-    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Denied.wav"),NULL,SND_SYNC);
+    PlaySound(TEXT("Database\\Sound\\Denied.wav"),NULL,SND_SYNC);
     break;
 case 7:
-    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Exit.wav"),NULL,SND_SYNC);
+    PlaySound(TEXT("Database\\Sound\\Exit.wav"),NULL,SND_SYNC);
     break;
 case 8:
-    PlaySound(TEXT("C:\\MinGW\\codeblock\\Soal APP\\Sound\\Error.wav"),NULL,SND_SYNC);
+    PlaySound(TEXT("Database\\Sound\\Error.wav"),NULL,SND_SYNC);
     break;
     }
 }
@@ -72,39 +72,39 @@ void randC (string randStr,int horizl, int vertkl,int lama,int akhir){
   int VarClr = 1 + (rand() & 14);
 
      textcolor(RandClr+VarClr);
-      kampret(horizl,vertkl);  cout << randStr <<endl;
+      gotoxy(horizl,vertkl);  cout << randStr <<endl;
         Sleep(lama);
     textcolor(15);
   }
 }
-void TypingTxt (string Text,int clrTxt, int sleepTxt, int horzntl, int vrtkl){
+void writeText (string Text,int clrTxt, int sleepTxt, int horzntl, int vrtkl){
     int length = Text.length();
     char Teksch[length];
 strcpy(Teksch, Text.c_str());
     textcolor(clrTxt);
-        kampret(horzntl,vrtkl);
+        gotoxy(horzntl,vrtkl);
     for (int i = 0; i < length; i++){
         cout << Teksch[i];
             Sleep(sleepTxt);
     }
     textcolor(15);
 }
-void TextjlnRight (string NameStr,int beginLoc, int endLoc, int Nl_vertikal,int colorTxt,int speedJLN){
+void teksJalan_kanan (string NameStr,int beginLoc, int endLoc, int Nl_vertikal,int colorTxt,int speedJLN){
 int Mulai = beginLoc - NameStr.length(); // Mengambil posisi paling kanan
     for (int i = Mulai; i >= endLoc; i--){
              textcolor(colorTxt);
-        kampret(i,Nl_vertikal); cout << NameStr <<" "<<endl;
+        gotoxy(i,Nl_vertikal); cout << NameStr <<" "<<endl;
     Sleep(speedJLN);
     }
 
 textcolor(15);
 }
-void TextjlnLeft (string NameStr,int beginLoc,int endLoc, int Nl_vertikal,int colorTxt,int speedJLN){
+void teksJalan_kiri (string NameStr,int beginLoc,int endLoc, int Nl_vertikal,int colorTxt,int speedJLN){
     int Mulai = beginLoc;
         for (int j = Mulai; j < endLoc; j++){
                // system("cls");
             textcolor(colorTxt);
-            kampret(j,Nl_vertikal);
+            gotoxy(j,Nl_vertikal);
                 cout <<" "<< NameStr <<endl;
                 Sleep(speedJLN);
         }
