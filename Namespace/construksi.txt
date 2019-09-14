@@ -1,0 +1,56 @@
+
+
+=====================================================================================
+
+
+							     Selamat Siang 
+
+
+
+	>> 1. Created account						    
+    >> 2. Have a account already?
+    Input code[1/2]? 
+
+
+	note : Jangan takut kamu bakal jadi bosen karena harus baca tulisan yang panjang, 
+		   Mereka cukup singkat kok, dan siapa tahu bisa bikin momen “Aha!” di benakmu.
+
+
+	Loading
+
+
+=======================================================================================
+
+
+ if ( jam <= 100 && jam >= 91)
+    {
+        cout << jam << " jam hurufnya adalah A " << endl;
+    }
+    if ( jam <= 90 && jam >= 81)
+    {
+        cout << jam << " jam hurufnya adalah B " << endl;
+    }
+    if ( jam <= 80 && jam >= 71)
+    {
+        cout << jam << " jam hurufnya adalah C " << endl;
+    }
+    if ( jam <= 70 && jam >= 61)
+    {
+        cout << jam << " jam hurufnya adalah D " << endl;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
