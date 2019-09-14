@@ -111,7 +111,7 @@ while (data == true){
             system("cls");
 textcolor(15);
 cout <<" "<<endl<<endl;
-kampret(30,1);cout <<"<<<<<<Welcome>>>>>>"<<endl<<endl<<endl;textcolor(12);
+gotoxy(30,1);cout <<"<<<<<<Welcome>>>>>>"<<endl<<endl<<endl;textcolor(12);
 cout <<"ISI Data berikut dengan benar!!!"<<endl<<endl;textcolor(15);
 textcolor(10);cout <<"Masukan Nama Anda = ";textcolor(15); cout << setName() <<endl;
 User = us;  Sound(3);
@@ -226,9 +226,20 @@ system("cls");
     cout <<"Nilai abjad : " << setVal_abj() <<endl;
     cout <<"Status      : " << setStatus() <<endl;
 
-    kampret(2,19);system("pause"); system("cls");
+    gotoxy(2,19);system("pause"); system("cls");
 
 }
+
+ void appClose(){
+
+     Sound(2); system("cls");textcolor(15);
+         randC("5.2.4",33,10,300,21);
+         gotoxy(25,19);cout <<endl;
+            textcolor(12);
+        system("pause");
+        textcolor(0);
+
+ }
 
 
 
