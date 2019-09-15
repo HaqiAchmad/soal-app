@@ -1,0 +1,91 @@
+cara termudah jadi pandai adalah belajar dari hal terbodoh yang perhah kamu lakukan.
+Jangan takut kamu bakal jadi bosen karena harus baca tulisan yang panjang. Mereka cukup singkat kok, dan siapa tahu bisa bikin momen “Aha!” di benakmu.
+
+
+void getLoginType(){
+
+    time_t t = time(NULL);
+    tm* timePtr = localtime(&t);
+    char choose; string ucapan; 
+    int Jam = timePtr->tm_hour; // <-- mendapatkan waktu di komputer
+
+    // string Motivasi = "cara termudah jadi pandai adalah belajar dari hal terbodoh yang pernah kamu lakukan.";
+    // string Motivasi = "Dengan begitu kemampuanmu akan lebih berkembang lagi. Dan pastinya, kamu tak akan jatuh ke lubang yang sama dua kali. Kata kata motivasi belajar ini cocok banget nih buat yang lagi menyesali kesalahan di masa lalu.";
+    string Motivasi = "Padahal sebenarnya, pendidikan yang kamu sebut menjengkelkan ini berkah lho. Karena berkatnya mungkin kamu bisa jadi orang hebat, bisa meraih cita cita yang diidamkan dan bisa meraih kehidupan yang berkecukupan di masa depan.";
+    string spasi = "-             ";
+
+    // mendeteksi waktu apakah pagi, siang, sore, petang atau malam
+    if (Jam <= 9 && Jam >= 5){ // pagi dimulai jam 5 sampai 9
+        ucapan = "Selamat Pagi";
+    }else if (Jam <= 14 && Jam >= 10){ // siang dimulai jam 10 sampai 14
+        ucapan = "Selamat Siang";
+    }else if (Jam <= 17 && Jam >= 15){ // sore dimulai jam 15 sampai 17
+        ucapan = "Selamat Sore";
+    }else if (Jam <= 19 && Jam >= 18){ // petang dimulai jam 18 sampai 19
+        ucapan = "Selamat Petang";
+    }else if (Jam <= 23 && Jam >= 20){ // malam dimulai jam 20 sampai 23
+        ucapan = "Selamat Malam";
+    }else if (Jam <= 4 && Jam >= 0){ // malam dimulai jam 0 sampai 4
+        ucapan = "Selamat Malam";
+    }
+
+    notFound: // goto : jika input dari user tidak ditemukan
+
+    cout << endl <<endl;
+    decor::loading(1,80,9,1); // menampilkan efek garis di gotoxy(0,3);
+
+    decor::gotoxy(0,22);
+    decor::loading(1,80,9,1); // menampilkan efek garis di gotoxy(0,22);
+
+
+    // menambahkan spasi di tengah" kata (agar tampilan lebih cantik saat di tampilkan di console)
+    if (Motivasi.length() >= 66){ 
+    Motivasi.insert(66, spasi); 
+    }
+    if (Motivasi.length() >= 147){
+    Motivasi.insert(147, spasi);
+    }
+    if (Motivasi.length() >= 226){
+    Motivasi.insert(226, spasi);
+    }
+    if (Motivasi.length() >= 306){
+    Motivasi.insert(306, spasi);
+    }
+    if (Motivasi.length() >= 385){
+        Motivasi.insert(385, spasi);
+    }
+
+    // menampilkan ucapan Selamat Pagi/Siang/Sore/Petang/Malam di gotoxy (33,4) dengan color light green
+    decor::gotoxy(33,4); decor::textcolor(10); 
+    cout << ucapan <<endl;
+
+    // menampilkan value variabel Motivasi di gotoxy(1,15);
+    decor::gotoxy(3,15); decor::textcolor(15);
+    cout <<"Note : "; decor::textcolor(8); cout << Motivasi <<endl; 
+
+    // menapilkan pilihan menu Created account di gotoxy(3,9);
+    decor::gotoxy(3, 9); decor::textcolor(10);
+    cout <<">>"; decor::textcolor(15); cout <<" 1. ";decor::textcolor(12); cout <<"Created account!"<<endl;
+    // menampilkan pilihan menu Have a account already? di gotoxy(3,10);
+    decor::gotoxy(3, 10); decor::textcolor(10);
+    cout <<">>"; decor::textcolor(15); cout <<" 2. ";decor::textcolor(12); cout <<"Have a account already?"<<endl;
+    // menampilkan Input Code[1/2]? : di gotoxy (3,14) dengan color light yellow
+    decor::gotoxy(3, 12); decor::textcolor(14);
+    cout <<"Input code[1/2]? "; 
+    decor::textcolor(15); cout <<"-> "; decor::gotoxy(24,12); cout <<" <-" <<endl; // membuat efek anak panah
+    // mendapatkan input dari user
+    decor::textcolor(11); decor::gotoxy(23, 12);
+    cin >> choose; 
+
+        if (choose == '1'){
+            addAccount(); // menambahkan akun
+        }else if (choose == '2'){
+            loginUserAccount(); // Log in dengan akun yang sudah ada
+        }else {
+            system("cls");
+            goto notFound; // jika pilihan tidak ditemukan maka akan dilempar ke atas lagi
+        }
+
+
+
+}
