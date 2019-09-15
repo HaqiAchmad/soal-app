@@ -239,3 +239,12 @@ Nilai    : 100
 Status   : LULUS
 Login Time : 20:57 Sel, 3:9:2019
 
+Gmail    : success70@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 100
+Status   : LULUS
+Login Time : 23:19 Sen, 16:9:2019
+
