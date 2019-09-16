@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1567522283 source:c:\mingw\soal app lama\main.cpp
+1567602647 source:c:\mingw\xi\soal app\main.cpp
 	<iostream>
 	<stdlib.h>
 	<windows.h>
@@ -13,10 +13,10 @@
 	"namespace\\files.h"
 	"namespace\\funct.h"
 
-1566719348 c:\mingw\soal app lama\namespace\\getvalues.h
+1566719348 c:\mingw\xi\soal app\namespace\\getvalues.h
 	<iostream>
 
-1566701614 c:\mingw\soal app lama\namespace\\decor.h
+1567602814 c:\mingw\xi\soal app\namespace\\decor.h
 	<iostream>
 	<stdlib.h>
 	<windows.h>
@@ -27,7 +27,7 @@
 	<fstream>
 	<chrono>
 
-1567602407 c:\mingw\soal app lama\namespace\\files.h
+1567602407 c:\mingw\xi\soal app\namespace\\files.h
 	<iostream>
 	<stdlib.h>
 	<windows.h>
@@ -38,7 +38,7 @@
 	<fstream>
 	<chrono>
 
-1567519498 c:\mingw\soal app lama\namespace\\funct.h
+1567519498 c:\mingw\xi\soal app\namespace\\funct.h
 	<iostream>
 	<stdlib.h>
 	<windows.h>
@@ -49,35 +49,17 @@
 	<fstream>
 	<chrono>
 
-1567522283 source:s:\source code\c++ programming\project\soal app version\soal app v-5.2.4\main.cpp
+1568651228 source:c:\mingw\codeblock\soal app\main.cpp
 	<iostream>
-	<stdlib.h>
-	<windows.h>
-	<string>
-	<mmsystem.h>
-	<bits/stdc++.h>
-	<fstream>
-	<chrono>
 	"namespace\\getValues.h"
 	"namespace\\decor.h"
-	"namespace\\files.h"
 	"namespace\\funct.h"
+	"namespace\\files.h"
 
-1566719348 s:\source code\c++ programming\project\soal app version\soal app v-5.2.4\namespace\\getvalues.h
+1566719348 c:\mingw\codeblock\soal app\namespace\\getvalues.h
 	<iostream>
 
-1566701614 s:\source code\c++ programming\project\soal app version\soal app v-5.2.4\namespace\\decor.h
-	<iostream>
-	<stdlib.h>
-	<windows.h>
-	<string>
-	<mmsystem.h>
-	<bits/stdc++.h>
-	<conio.h>
-	<fstream>
-	<chrono>
-
-1567602407 s:\source code\c++ programming\project\soal app version\soal app v-5.2.4\namespace\\files.h
+1568643080 c:\mingw\codeblock\soal app\namespace\\decor.h
 	<iostream>
 	<stdlib.h>
 	<windows.h>
@@ -88,7 +70,190 @@
 	<fstream>
 	<chrono>
 
-1567519498 s:\source code\c++ programming\project\soal app version\soal app v-5.2.4\namespace\\funct.h
+1568653860 c:\mingw\codeblock\soal app\namespace\\files.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568556976 c:\mingw\codeblock\soal app\namespace\\funct.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568731381 source:c:\mingw\soal app (clion)\main.cpp
+	<iostream>
+	"namespace\\getValues.h"
+	"namespace\\decor.h"
+	"namespace\\funct.h"
+	"namespace\\files.h"
+
+1566719348 c:\mingw\soal app (clion)\namespace\\getvalues.h
+	<iostream>
+
+1568643080 c:\mingw\soal app (clion)\namespace\\decor.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568556976 c:\mingw\soal app (clion)\namespace\\funct.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568653860 c:\mingw\soal app (clion)\namespace\\files.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1644117705 source:e:\documents\others\soal app version\soal app 2019-09-17\main.cpp
+	<iostream>
+	"namespace\\getValues.h"
+	"namespace\\decor.h"
+	"namespace\\funct.h"
+	"namespace\\files.h"
+
+1566719348 e:\documents\others\soal app version\soal app 2019-09-17\namespace\\getvalues.h
+	<iostream>
+
+1568643080 e:\documents\others\soal app version\soal app 2019-09-17\namespace\\decor.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568556976 e:\documents\others\soal app version\soal app 2019-09-17\namespace\\funct.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568653860 e:\documents\others\soal app version\soal app 2019-09-17\namespace\\files.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1644117705 source:s:\source code\c++ programming\project\soal app version\soal app v-6.0.0\main.cpp
+	<iostream>
+	"namespace\\getValues.h"
+	"namespace\\decor.h"
+	"namespace\\funct.h"
+	"namespace\\files.h"
+
+1566719348 s:\source code\c++ programming\project\soal app version\soal app v-6.0.0\namespace\\getvalues.h
+	<iostream>
+
+1568643080 s:\source code\c++ programming\project\soal app version\soal app v-6.0.0\namespace\\decor.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568556976 s:\source code\c++ programming\project\soal app version\soal app v-6.0.0\namespace\\funct.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568653860 s:\source code\c++ programming\project\soal app version\soal app v-6.0.0\namespace\\files.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1644117705 source:s:\source code\c++ programming\project\soal app\main.cpp
+	<iostream>
+	"namespace\\getValues.h"
+	"namespace\\decor.h"
+	"namespace\\funct.h"
+	"namespace\\files.h"
+
+1566719348 s:\source code\c++ programming\project\soal app\namespace\\getvalues.h
+	<iostream>
+
+1568643080 s:\source code\c++ programming\project\soal app\namespace\\decor.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568556976 s:\source code\c++ programming\project\soal app\namespace\\funct.h
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<mmsystem.h>
+	<bits/stdc++.h>
+	<conio.h>
+	<fstream>
+	<chrono>
+
+1568653860 s:\source code\c++ programming\project\soal app\namespace\\files.h
 	<iostream>
 	<stdlib.h>
 	<windows.h>
