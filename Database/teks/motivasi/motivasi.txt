@@ -1,91 +1,61 @@
 cara termudah jadi pandai adalah belajar dari hal terbodoh yang perhah kamu lakukan.
-Jangan takut kamu bakal jadi bosen karena harus baca tulisan yang panjang. Mereka cukup singkat kok, dan siapa tahu bisa bikin momen “Aha!” di benakmu.
-
-
-void getLoginType(){
-
-    time_t t = time(NULL);
-    tm* timePtr = localtime(&t);
-    char choose; string ucapan; 
-    int Jam = timePtr->tm_hour; // <-- mendapatkan waktu di komputer
-
-    // string Motivasi = "cara termudah jadi pandai adalah belajar dari hal terbodoh yang pernah kamu lakukan.";
-    // string Motivasi = "Dengan begitu kemampuanmu akan lebih berkembang lagi. Dan pastinya, kamu tak akan jatuh ke lubang yang sama dua kali. Kata kata motivasi belajar ini cocok banget nih buat yang lagi menyesali kesalahan di masa lalu.";
-    string Motivasi = "Padahal sebenarnya, pendidikan yang kamu sebut menjengkelkan ini berkah lho. Karena berkatnya mungkin kamu bisa jadi orang hebat, bisa meraih cita cita yang diidamkan dan bisa meraih kehidupan yang berkecukupan di masa depan.";
-    string spasi = "-             ";
-
-    // mendeteksi waktu apakah pagi, siang, sore, petang atau malam
-    if (Jam <= 9 && Jam >= 5){ // pagi dimulai jam 5 sampai 9
-        ucapan = "Selamat Pagi";
-    }else if (Jam <= 14 && Jam >= 10){ // siang dimulai jam 10 sampai 14
-        ucapan = "Selamat Siang";
-    }else if (Jam <= 17 && Jam >= 15){ // sore dimulai jam 15 sampai 17
-        ucapan = "Selamat Sore";
-    }else if (Jam <= 19 && Jam >= 18){ // petang dimulai jam 18 sampai 19
-        ucapan = "Selamat Petang";
-    }else if (Jam <= 23 && Jam >= 20){ // malam dimulai jam 20 sampai 23
-        ucapan = "Selamat Malam";
-    }else if (Jam <= 4 && Jam >= 0){ // malam dimulai jam 0 sampai 4
-        ucapan = "Selamat Malam";
-    }
-
-    notFound: // goto : jika input dari user tidak ditemukan
-
-    cout << endl <<endl;
-    decor::loading(1,80,9,1); // menampilkan efek garis di gotoxy(0,3);
-
-    decor::gotoxy(0,22);
-    decor::loading(1,80,9,1); // menampilkan efek garis di gotoxy(0,22);
-
-
-    // menambahkan spasi di tengah" kata (agar tampilan lebih cantik saat di tampilkan di console)
-    if (Motivasi.length() >= 66){ 
-    Motivasi.insert(66, spasi); 
-    }
-    if (Motivasi.length() >= 147){
-    Motivasi.insert(147, spasi);
-    }
-    if (Motivasi.length() >= 226){
-    Motivasi.insert(226, spasi);
-    }
-    if (Motivasi.length() >= 306){
-    Motivasi.insert(306, spasi);
-    }
-    if (Motivasi.length() >= 385){
-        Motivasi.insert(385, spasi);
-    }
-
-    // menampilkan ucapan Selamat Pagi/Siang/Sore/Petang/Malam di gotoxy (33,4) dengan color light green
-    decor::gotoxy(33,4); decor::textcolor(10); 
-    cout << ucapan <<endl;
-
-    // menampilkan value variabel Motivasi di gotoxy(1,15);
-    decor::gotoxy(3,15); decor::textcolor(15);
-    cout <<"Note : "; decor::textcolor(8); cout << Motivasi <<endl; 
-
-    // menapilkan pilihan menu Created account di gotoxy(3,9);
-    decor::gotoxy(3, 9); decor::textcolor(10);
-    cout <<">>"; decor::textcolor(15); cout <<" 1. ";decor::textcolor(12); cout <<"Created account!"<<endl;
-    // menampilkan pilihan menu Have a account already? di gotoxy(3,10);
-    decor::gotoxy(3, 10); decor::textcolor(10);
-    cout <<">>"; decor::textcolor(15); cout <<" 2. ";decor::textcolor(12); cout <<"Have a account already?"<<endl;
-    // menampilkan Input Code[1/2]? : di gotoxy (3,14) dengan color light yellow
-    decor::gotoxy(3, 12); decor::textcolor(14);
-    cout <<"Input code[1/2]? "; 
-    decor::textcolor(15); cout <<"-> "; decor::gotoxy(24,12); cout <<" <-" <<endl; // membuat efek anak panah
-    // mendapatkan input dari user
-    decor::textcolor(11); decor::gotoxy(23, 12);
-    cin >> choose; 
-
-        if (choose == '1'){
-            addAccount(); // menambahkan akun
-        }else if (choose == '2'){
-            loginUserAccount(); // Log in dengan akun yang sudah ada
-        }else {
-            system("cls");
-            goto notFound; // jika pilihan tidak ditemukan maka akan dilempar ke atas lagi
-        }
-
-
-
-}
+Padahal sebenarnya, pendidikan yang kamu sebut menjengkelkan ini berkah lho. Karena berkatnya mungkin kamu bisa jadi orang hebat, bisa meraih cita cita yang diidamkan dan bisa meraih kehidupan yang berkecukupan di masa depan.
+Pendidikan adalah satu-satunya kunci untuk membuka dunia ini, serta paspor untuk menuju kebebasan.
+Semua pengorbanan, kerja keras, air mata, dukungan dari orang tua, sahabat ataupun orang tersayang pasti akan berujung pada hal yang manis. Duh, jadi tidak sabar menunggu masa depan yang lebih baik.
+Jangan bertanya apa yang terjadi jika sesuatu tidak berhasil, namun bertanyalah Apa yang terjadi jika berhasil.
+Menunda-nunda sesuatu bukanlah hal yang baik bukan? Jika kamu terlalu banyak menunda, bisa jadi mimpi kamu akan semakin tertunda. Mau mimpi kamu tidak kunjung terwujud? Yuk mulai belajar lagi!.
+Semakin awal kau memulai pekerjaan, semakin awal pula kau akan melihat hasilnya.
+Orang bijak belajar ketika mereka bisa. Orang bodoh belajar ketika mereka terpaksa
+Jangan biarkan siapapun mengatakan kau tidak bisa melakukan sesuatu. Kau bermimpi, kau harus menjaganya. Kalau menginginkan sesuatu, raihlah.
+Kalau kau berjalan perlahan, kau bisa melihat lebih banyak dan lebih detail daripada mereka yang berjalan dengan cepat. Kalau kau bertanya siapa yang akan lebih berkembang di antara keduanya, menurutku dia yang berjalan perlahan dan banyak melihat. 
+Selalu ada sesuatu yang bisa dipelajari, bahkan bagi seorang master sekalipun.
+Orang-orang yang berhenti belajar akan menjadi pemilik masa lalu. Namun, orang-orang yang terus belajar akan menjadi pemilik masa depan. 
+Biarkan dirimu jadi pemula. Tidak ada seorang pun di dunia ini yang langsung menjadi ahli.
+Jangan menyerah atas impianmu, impian memberimu tujuan hidup. Ingatlah, sukses bukan kunci kebahagiaan, kebahagiaanlah kunci sukses. Semangat!.
+Orang yg sukses tidak selalu orang yang pintar, tapi orang sukses adalah mereka yang gigih dan pantang menyerah.
+Jangan menyerah badai pasti berlalu. Jangan menyerah atas impianmu, impian memberimu tujuan hidup. Ingatlah, sukses bukan kunci kebahagiaan, kebahagiaanlah kunci sukses.
+Perjalanan Sukses memang Panjang, tidak peduli berapa lama anda mencapainya, selama anda tak pernah menyerah anda pasti sukses.
+Kegagalan yang sebenarnya terjadi itu disaat kita menyerah dan menghentikan semua langkah Ketika harapan dan impian sirna.
+Jangan menyerah hanya karena gagal pada kesempatan pertama. Sesuatu yang berharga tak akan anda miliki dengan mudah
+Menyerah adalah Tindakan yang Paling Mudah untuk dilakukan. Namun Selalu Bertahan dan Berjuang demi Masa Depan adalah hal yang Luar Biasa.
+Seringkali kita ragu melakukan sesuatu karena semuanya terlihat sulit. Padahal, mungkin semua ketakutan itu hanya ada di dalam pikiranmu.
+Kamu sering dibilang tak punya kemampuan oleh mereka, jangan sekali pun terpengaruh. Selalu berlatih dan semangat!
+Saya selalu berkata "Untuk memiliki mimpi yang besar dibutuhkan pengorbanan yang sama seperti memiliki mimpi yang kecil. Bermimpilah yang besar!".
+Ketika Anda hidup untuk opini orang lain, Anda sesungguhnya mati. Saya tidak ingin hidup dan berpikir tentang bagaimana Saya akan diingat.
+Jangan menjadikan sukses sebagai tujuan, lakukan apa yang Anda cintai dan percayai maka sukses akan datang dengan sendirinya.
+Orang yang sukses adalah orang yang bisa bersandar pada sandaran yang kuat sementara ia menerima lemparan banyak batu-bata.
+Jadilah dirimu sendiri, ekspresikan dirimu sendiri, yakinlah pada dirimu sendiri, jangan pergi dan mencari kepribadian sukses dan menduplikasinya.
+Sukses bukanlah kunci kebahagiaan. Kebahagiaan adalah kunci kesuksesan. Jika Anda mencintai apa yang anda lakukan, Anda akan menjadi orang yang sukses
+Jangan putus asa jika otak tumpul dan akal kurang cerdas. Karena kadang seseorang yang tumpul otak tapi tidak putus asa, lebih berhasil daripada seorang yang cerdas tetapi pemalas.
+Jangan putus asa hanya karena segala sesuatu tak berjalan sesuai rencana. Masalah hanya menjadikanmu pribadi yang lebih kuat dan bijaksana.
+Hidup adalah petualangan. Mumpung masih muda, saat menghadapi problem jangan mudah mengeluh, merengek, apalagi putus asa, karena Putus asa adalah sumber kesesatan dan kegalauan hati.
+Jangan pernah berhenti berusaha untuk menjadi unggul. Tidak peduli seberapa putus asa yang anda dapatkan.
+Tidak ada seorang pun yang bisa kembali ke masa lalu dan memulai awal yang baru lagi. Tapi semua orang bisa memulai hari ini dan membuat akhir yang baru. 
+Sesungguhnya luka yang kita dapatkan dalam perjuangan lebih nikmat daripada kesehatan dalam rundungan kemalangan.
+Ketika kita bangkit lalu bergerak lagi, perasaan-perasaan negatif itu pasti lenyap meskipun perlahan-lahan.
+Jika kita terpuruk dan tidak melakukan apa-apa, kita akan dibunuh oleh pikiran-pikiran negatif.
+Hal-hal yang baik datang untuk mereka yang menunggu. Tapi hal yang lebih baik lagi datang kepada mereka yang bergerak untuk mendapatkannya
+Jika saya gagal, maka saya akan memulainya kembali, sebab dalam kehidupanku, aku tak kenal kata menyerah.
+Untuk mendapatkan kehidupan yang lebih baik, yang dibutuhkan hanyalah semangat, percaya diri dan pantang menyerah pada apa yang dicita-citakan.
+Kesalahan terburuk adalah ketika kamu tidak percaya dengan kemampuan dirimu sendiri, jangan menyerah !!!
+Yang terpenting adalah bagaimana kamu menghadapi rintangan tersebut, apakah kamu akan berusaha atau dijadikan alasan untuk berhenti dan menyerah.
+Jangan patah semangat saat kehidupan ini tak berjalan seperti rencanamu, ingatlah hidupmu ada untuk menggenapi rencana Tuhan bukannya rencanamu, rencana tuhan yanng terbaik, maka jangan berhenti menyerah.
+Hari ini bukan waktunya untuk menyerah, tidak juga untuk besok, karena selama kau masih mau hidup, menyerah bukanlah pilihan.
+Ingat keraguan akan mengakibatkan kekalahan, namun keyakinan akan menghasilkan kemenangan.
+Jika saya gagal, maka saya akan memulainya kembali, sebab dalam kehidupanku, aku tak kenal kata menyerah.
+Ketidak beranian mengalami perubahan seringkali mengakibatkan tidak adanya kemajuan.
+Jangan selesaikan masalah dengan mengeluh, berkeluh kesah dan marah-marah. selesaikan saja dengan sabar, syukur dan jangan lupa tersenyum.
+Mengeluh tidak akan memperbaiki keadaan, semagant buat hari in. Jalani dengan ikhlas dan penuh kesabaran.
+Orang yang masih terganggu dengan hinaan dan pujian manusia, dia masih orang yang amatiran.
+Jangan pernah menghina masa lalu seseorang. Karena kalian tidak tau bagaimana masa depannya.
+Ada waktunya bahwa seseorang yang terlalu banyak bicara omong kosong dan menghina orang yang tidak mempunyai salah padanya akan “termakan omongannya yang keterlaluan.
+Jika aku ingin menyerah, pastilah aku sudah lakukan sejak dulu. Tapi kenapa yang selalu kutemui hanyalah jalan buntu?
+Pikirkan apapun yang akan kamu ucapkan. Karena setiap ucapan yang keluar dari mulutmu, tak akan bisa kamu tarik kembali.
+Cintai apapun yang ada didunia dengan sewajarnya. Karena apapun yang ada di dunia tak ada yang abadi.
+Belajar memahami bahwa tak semua keinginan bisa terpenuhi, barangkali obat terbaik tuk mencegah kecewa dan sakit hati.
+Jangan pernah menyepelekan apapun yang telah kamu miliki, karena mungkin yang kamu miliki itu sangat diinginkan oleh orang lain.
+Kamu jangan pernah menyerah ketika kamu terjatuh, karena jatuh bukan berarti kalah, yang harus kamu lakukan adalah mencoba kembali apa yang telah membuatmu gagal.
+Teruslah berjuang sampai kau mendapatkan berkah dari jirih payah dan lelah yang selama ini kamu hadapi.
+Akan tiba waktunya kamu akan merasa lelah dengan keadaan yang sedang kamu hadapi.
+Syukurilah apa yang saat ini kita miliki, karena masih banyak diluar sana orang yang jauh lebih susah dari kita.
+<error>
