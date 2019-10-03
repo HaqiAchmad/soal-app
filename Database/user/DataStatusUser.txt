@@ -1,250 +1,159 @@
-Gmail    : Baihaqi.imersa@gmail.com
-Username : Baihaqi
-Nis      : 6165
+Email    : 
+Username : 
+Nis      : 2323
 Kelas    : X (sepuluh)
 Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-
-Gmail    : hakiahmad90@gmail.com
-Username : b
-Nis      : 1222
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
 Nilai    : 50
 Status   : TIDAK LULUS
+ExamTime : 15:48 Min, 6:10:2019
 
-Gmail    : c++projecct@gmail.com
-Username : Spongebob
-Nis      : cy34ja
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
 Kelas    : X (sepuluh)
 Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 13:0 Sab, 17:8:2019
-
-Gmail    : agustus@gmail.com
-Username : FunFunFun
-Nis      : X
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
 Nilai    : 60
 Status   : TIDAK LULUS
-Login Time : 13:4 Sab, 17:8:2019
+ExamTime : 15:58 Min, 6:10:2019
 
-Gmail    : c++project@gmail.com
-Username : hqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 60
-Status   : TIDAK LULUS
-Login Time : 19:47 Sab, 17:8:2019
-
-Gmail    : 
-Username : baihaqi
-Nis      : v81f4
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 10:2 Min, 25:8:2019
-
-Gmail    : 
-Username : baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 11:9 Min, 25:8:2019
-
-Gmail    : 
+Email    : hakiahmad756@gmail.com
 Username : Baihaqi
-Nis      : 6156
+Nis      : 3672
 Kelas    : X (sepuluh)
 Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 11:37 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 11:49 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 13:24 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : admin
-Nis      : null
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 80
-Status   : LULUS
-Login Time : 13:28 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : 
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 14:1 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : 
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 14:16 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : 
-Kelas    : 
-Jurusan  : 
-Nilai    : 0
-Status   : 
-Login Time : 14:27 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 0
-Status   : 
-Login Time : 14:41 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 0
-Status   : 
-Login Time : 14:44 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : 6165
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 70
-Status   : LULUS
-Login Time : 14:52 Min, 25:8:2019
-
-Gmail    : tester202@gmail.com
-Username : baihaqi
-Nis      : 5151
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 15:22 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : e343
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 22:27 Min, 25:8:2019
-
-Gmail    : c++project@gmail.com
-Username : Baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 20:55 Kam, 29:8:2019
-
-Gmail    : 
-Username : baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 90
-Status   : LULUS
-Login Time : 13:40 Sab, 31:8:2019
-
-Gmail    : 
-Username : Windows
-Nis      : 7843
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 70
-Status   : LULUS
-Login Time : 13:52 Sab, 31:8:2019
-
-Gmail    : 
-Username : windows
-Nis      : 7842
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 50
-Status   : TIDAK LULUS
-Login Time : 13:58 Sab, 31:8:2019
-
-Gmail    : 
-Username : winn
-Nis      : 6546
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 80
-Status   : LULUS
-Login Time : 14:1 Sab, 31:8:2019
-
-Gmail    : 
-Username : friennd
-Nis      : 7482
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
 Nilai    : 40
 Status   : TIDAK LULUS
-Login Time : 14:14 Sab, 31:8:2019
+ExamTime : 16:1 Min, 6:10:2019
 
-Gmail    : 
-Username : baihaqi
-Nis      : 6156
+Email    : unknownplayers756@gmail.com
+Username : hacky
+Nis      : 7842
 Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
+Jurusan  : Teknik Instalasi Tenaga Listrik
+Mapel    : Bahasa Indonesia
+Nilai    : 50
+Status   : TIDAK LULUS
+ExamTime : 21:54 Min, 6:10:2019
+
+Email    : Email      : hakiahmad756@gmail.com
+Username : Nama       : Baihaqi
+Nis      : Nis        : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Jurusan    : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
+Nilai    : 40
+Status   : TIDAK LULUS
+ExamTime : 15:5 Rab, 9:10:2019
+
+Email    : unknownplayers756@gmail.com
+Username : hacky
+Nis      : 7842
+Kelas    : X (sepuluh)
+Jurusan  : Teknik Instalasi Tenaga Listrik
+Mapel    : Bahasa Indonesia
+Nilai    : 50
+Status   : TIDAK LULUS
+Login Time : 15:18 Rab, 9:10:2019
+
+Email    : devcpp@gmail.com
+Username : devcpp
+Nis      : 7103
+Kelas    : X (sepuluh)
+Jurusan  : Tata Boga
+Mapel    : Bahasa Indonesia
 Nilai    : 100
 Status   : LULUS
-Login Time : 20:53 Sel, 3:9:2019
+ExamTime : 15:26 Rab, 9:10:2019
 
-Gmail    : superai@gmail.com
-Username : baihaqi
-Nis      : 6156
-Kelas    : X (sepuluh)
-Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
-Status   : LULUS
-Login Time : 20:57 Sel, 3:9:2019
-
-Gmail    : success70@gmail.com
+Email    : hakiahmad756@gmail.com
 Username : Baihaqi
 Nis      : 6156
 Kelas    : X (sepuluh)
 Jurusan  : Rekayasa Perangkat Lunak
-Nilai    : 100
+Mapel    : Bahasa Indonesia
+Nilai    : 20
+Status   : TIDAK LULUS
+ExamTime : 13:23 Rab, 23:10:2019
+
+Gmail    : hakiahmad756@gmail.com
+Username : baihaqi dari masa depan
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Nilai    : 80
 Status   : LULUS
-Login Time : 23:19 Sen, 16:9:2019
+Login Time : 21:13 Rab, 17:6:2020
+
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Inggris
+Nilai    : 0
+Status   : TIDAK LULUS
+ExamTime : 11:24 Sen, 17:1:2022
+
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
+Nilai    : 10
+Status   : TIDAK LULUS
+ExamTime : 11:26 Sen, 17:1:2022
+
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
+Nilai    : 0
+Status   : TIDAK LULUS
+ExamTime : 10:55 Min, 6:2:2022
+
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
+Nilai    : 10
+Status   : TIDAK LULUS
+ExamTime : 11:27 Min, 6:2:2022
+
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
+Nilai    : 20
+Status   : TIDAK LULUS
+ExamTime : 17:15 Min, 6:2:2022
+
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
+Nilai    : 20
+Status   : TIDAK LULUS
+ExamTime : 17:1 Min, 13:2:2022
+
+Email    : hakiahmad756@gmail.com
+Username : Baihaqi
+Nis      : 6156
+Kelas    : X (sepuluh)
+Jurusan  : Rekayasa Perangkat Lunak
+Mapel    : Bahasa Indonesia
+Nilai    : 20
+Status   : TIDAK LULUS
+ExamTime : 17:9 Min, 13:2:2022
 
