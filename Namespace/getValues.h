@@ -4,66 +4,148 @@ namespace getValues{
 
 using namespace std;
 
-    string setgmail, setname, setpassword;
-    string setnis, setkelas, setjurusan, setstatus;
-    int setnilai;
-    char setval_abj;
+    string getemail, getname, getpassword;
+    string getnis, getkelas, getjurusan, getstatus;
+    int getnilai;
+    char getval_abj;
 
-    void getGmail(string gmail){
-        setgmail = gmail;
+    /*
+    set = mendapatkan value dari variabel lain
+    get = berisi value dari variabel yang diambil dari fungsi set
+    */
+
+    void setEmail(string Email){
+        getemail = Email;
     }
-    void getName(string name){
-        setname = name;
+    void setName(string name){
+        getname = name;
     }
-    void getPassword(string pass){
-        setpassword = pass;
+    void setPassword(string pass){
+        getpassword = pass;
     }
-    void getNis(string nis){
-        setnis = nis;
+    void setNis(string nis){
+        getnis = nis;
     }
-    void getKelas(string kelas){
-        setkelas = kelas;
+    void setKelas(string kelas){
+        getkelas = kelas;
     }
-    void getJurusan(string jurusan){
-        setjurusan = jurusan;
+    void setJurusan(string jurusan){
+        getjurusan = jurusan;
     }
-    void getVal(int value){
-        setnilai = value;
+    void setVal(int value){
+        getnilai = value;
     }
-    void getVal_abj(char chr){
-        setval_abj = chr;
+    void setVal_abj(char chr){
+        getval_abj = chr;
     }
-    void getStatus(string status){
-        setstatus = status;
+    void setStatus(string status){
+        getstatus = status;
     }
 
 
-    string setGmail(){
-        return setgmail;
+    string getEmail(){
+        return getemail;
     }
-    string setName(){
-        return setname;
+    string getName(){
+        return getname;
     }
-    string setPassword(){
-        return setpassword;
+    string getPassword(){
+        return getpassword;
     }
-    string setNis(){
-        return setnis;
+    string getNis(){
+        return getnis;
     }
-    string setKelas(){
-        return setkelas;
+    string getKelas(){
+        return getkelas;
     }
-    string setJurusan(){
-        return setjurusan;
+    string getJurusan(){
+        return getjurusan;
     }
-    int setVal(){
-        return setnilai;
+    int getVal(){
+        return getnilai;
     }
-    char setVal_abj(){
-        return setval_abj;
+    char getVal_abj(){
+        return getval_abj;
     }
-    string setStatus(){
-        return setstatus;
+    string getStatus(){
+        return getstatus;
     }
+
 
 }
+
+
+//class Hero:
+
+//     def __init__(self, heroName, health, attackPower, armor):
+//         self.hero = heroName
+//         self.health = health
+//         self.attackPower = attackPower
+//         self.armor = armor
+
+//     def attack(self, Hero):
+//         print(self.hero, "menyerang", Hero.hero)
+//         Hero.__attacked(self, self.attackPower)
+
+//     def __attacked(self, Hero, serangan_lwn):
+//         serangan = serangan_lwn // self.armor
+//         self.health -= serangan
+//         print(self.hero ,"diserang", Hero.hero)
+//         print("serangan", Hero.hero, ":", str(serangan))
+//         print("darah", self.hero, ":", str(self.health))
+//         print("=" * 50)
+
+
+
+// zilong = Hero("zilong", 100, 35, 8)
+// iritel = Hero("iritel", 75, 37, 8)
+// balmond = Hero("balmond", 130, 20, 15)
+// zhaks = Hero("zhaks", 100, 30, 15)
+// angela = Hero("angela", 60, 10, 14)
+// # power 465 attack 82 armor 26
+
+// alucard = Hero("alucard", 110, 30, 11)
+// miya = Hero("miya", 98, 33, 10)
+// jonshon = Hero("jonshon", 156, 10, 15)
+// joker = Hero("joker", 98, 20, 10)
+// diger = Hero("diger", 90, 10, 5)
+// # power 534 attack 122 armor 51
+
+// # inpHero = str(input("Hero : "))
+// # inpHealth = int(input("Health : "))
+// # inpAttackPow = int(input("Attack : "))
+// # inpArmor = int(input("Armor : "))
+// #
+// # objek = Hero(inpHero, inpHealth, inpAttackPow, inpArmor)
+
+// while(True):
+//     if zilong.health <= 0 or miya.health <= 0:
+//         break
+//     else:
+//         jonshon.attack(balmond)
+//         balmond.attack(jonshon)
+
+//         miya.attack(iritel)
+//         iritel.attack(miya)
+
+//         zilong.attack(alucard)
+//         alucard.attack(zilong)
+
+//         joker.attack(zhaks)
+//         zhaks.attack(joker)
+
+//         angela.attack(diger)
+//         diger.attack(angela)
+
+
+
+
+
+
+
+// if (zilong.health > miya.health):
+//     print(zilong.hero, "winner")
+// elif(zilong.health == miya.health):
+//     print("draw!")
+// else:
+//     print(miya.hero, "winner")
