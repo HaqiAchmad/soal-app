@@ -1,0 +1,72 @@
+Nama       : Baihaqi
+Email      : hakiahmad756@gmail.com
+Password   : newpass10
+Nis        : 6156
+Kelas      : XI (sebelas)
+Jurusan    : Rekayasa Perangkat Lunak
+Dibuat     : 21:50 Min, 6:10:2019
+
+Nama       : hacky
+Email      : unknownplayers756@gmail.com
+Password   : anjaymabar1
+Nis        : 7842
+Kelas      : X (sepuluh)
+Jurusan    : Teknik Instalasi Tenaga Listrik
+Dibuat     : 21:53 Min, 6:10:2019
+
+Nama       : Achmad Baihaqi
+Email      : testeraccount9@gmail.com
+Password   : abcdefgh01
+Nis        : 13241
+Kelas      : XI (sebelas)
+Jurusan    : Teknik Pemesinan
+Dibuat     : 22:26 Min, 6:10:2019
+
+Nama       : Admin
+Email      : admin001@add.com
+Password   : addaccount1
+Nis        : 8071
+Kelas      : XII (duabelas)
+Jurusan    : Otomasi Industri
+Dibuat     : 13:54 Rab, 9:10:2019
+
+Nama       : baihaqi
+Email      : myproject77@ymail.com
+Password   : thispassword1
+Nis        : 6156
+Kelas      : XII (duabelas)
+Jurusan    : Rekayasa Perangkat Lunak
+Dibuat     : 13:8 Min, 13:10:2019
+
+Nama       : anonim
+Email      : anonim@project.com
+Password   : character90
+Nis        : 8024
+Kelas      : XI (sebelas)
+Jurusan    : Teknik Pemesinan
+Dibuat     : 13:12 Min, 13:10:2019
+
+Nama       : baihaqi
+Email      : trying@add.com
+Password   : mypass9090
+Nis        : 7382
+Kelas      : XII (duabelas)
+Jurusan    : Teknik Instalasi Tenaga Listrik
+Dibuat     : 15:22 Min, 20:10:2019
+
+Nama       : anonim
+Email      : unnamed@sys.com
+Password   : character94
+Nis        : 7858
+Kelas      : X (sepuluh)
+Jurusan    : Tata Boga
+Dibuat     : 15:40 Min, 20:10:2019
+
+Email      : baihaqi@yahoo.com
+Password   : malesnulis01
+Nis        : 6166
+Kelas      : XI (sebelas)
+Jurusan    : Rekayasa Perangkat Lunak
+Dibuat     : 22:17 Min, 20:10:2019
+
+
